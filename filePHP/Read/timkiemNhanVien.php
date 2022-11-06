@@ -6,28 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim Kiem</title>
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <link rel="stylesheet" href="/PracticeFirst/fileCSS/them.css">
 </head>
 
 <body>
-    <div class="form-container">
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Tìm kiếm thông tin nhân viên</h1>
+        </header>
         <form name="f1" action="xulytimkiemNhanVien.php" method="post">
             <div>
-                <h3>Tìm kiếm thông tin Nhân Viên</h3>
-            </div>
-            <div>
                 Tìm kiếm theo:
-                <input type="radio" name="r1" value="rIDNV" checked="checked">IDNV
-                <input type="radio" name="r1" value="rHoten">Họ Tên
-                <input type="radio" name="r1" value="rDiachi">Địa Chỉ
+                <label>
+                    <input type="radio" name="r1" value="rIDNV" checked="checked" class="input-radio">IDNV
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="rHoten" class="input-radio">Họ Tên
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="rDiachi" class="input-radio">Địa Chỉ
+                </label>
             </div>
-            <div>
-                Nhập thông tin nhân viên:
-                <input type="text" name="info" required placeholder="enter infor">
+            <div class="form-group">
+                <label for="">Nhập thông tin nhân viên</label>
+                <input type="text" name="info" class="form-control" placeholder="Enter infor you want" required="">
             </div>
-            <div>
-                <input type="submit" name="submit" value="OK" class="form-btn">
-                <input type="reset" name="reset" value="Reset" class="form-btn">
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+            <div class="form-group">
+                <button type="reset" id="reset" class="submit-button">
+                    Reset
+                </button>
             </div>
         </form>
     </div>

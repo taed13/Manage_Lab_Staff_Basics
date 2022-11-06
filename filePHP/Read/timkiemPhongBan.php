@@ -6,34 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tìm kiếm phòng ban</title>
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <link rel="stylesheet" href="/PracticeFirst/fileCSS/them.css">
 </head>
 
 <body>
-    <div class="form-container">
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Tìm kiếm thông tin phòng ban</h1>
+        </header>
         <form name="f1" action="xulytimkiemPhongBan.php" method="post">
             <div>
-                <h3>Tìm kiếm thông tin Phòng Ban</h3>
-            </div>
-            <div>
                 Tìm kiếm theo:
-                <div>
-                    <input type="radio" name="r1" value="rIDPB" checked="checked">IDPB
-                </div>
-                <div>
-                    <input type="radio" name="r1" value="rTenPB">Tên Phòng Ban
-                </div>
-                <div>
-                    <input type="radio" name="r1" value="rMoTa">Mô Tả
-                </div>
+                <label>
+                    <input type="radio" name="r1" value="rIDPB" checked="checked" class="input-radio">IDPB
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="rTenPB" class="input-radio">Tên Phòng Ban
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="rMoTa" class="input-radio">Mô tả
+                </label>
             </div>
-            <div>
-                Nhập thông tin Phòng Ban:
-                <input type="text" name="info" required placeholder="enter lab name">
+            <div class="form-group">
+                <label for="">Nhập thông tin phòng ban</label>
+                <input type="text" name="info" class="form-control" placeholder="Enter lab you want" required="">
             </div>
-            <div>
-                <input type="submit" name="submit" value="OK" class="form-btn">
-                <input type="reset" name="reset" value="Reset" class="form-btn">
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+            <div class="form-group">
+                <button type="reset" id="reset" class="submit-button">
+                    Reset
+                </button>
             </div>
         </form>
     </div>
