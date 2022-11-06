@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* COLORS and FONTS */
+body {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 10;
+}
+aside {
+  line-height: 3;
+}
+img {
+  opacity: 0.75;
+  height: 150px;
+}
+
+.left-sidebar {
+  background-color: #075794;
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-sidebar a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+  font-style: italic;
+  width: 300px;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .header,
+  .footer {
+    width: 100%;
+  }
+  iframe {
+    flex: 5;
+    order: 2;
+    min-height: 85vh;
+  }
+
+  .left-sidebar {
+    order: 0;
+    flex: 0;
+  }
+  .footer {
+    order: 4;
+    min-height: 100px;
+    background: #075794 url(/PracticeFirst/image/footer.png) no-repeat center 0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6) inset;
+    color: #b9c7d8;
+  }
+}

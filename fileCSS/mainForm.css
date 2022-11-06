@@ -1,0 +1,535 @@
+.wd-head-container {
+  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/bg-header.png)
+    repeat-x 0 0;
+  min-height: 130px;
+  z-index: 10;
+  position: relative;
+}
+
+.wd-center {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.wd-top-header {
+  display: inline;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+address,
+em,
+img,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.wd-top-right,
+.wd-content-right {
+  float: right;
+}
+
+a.wd-logo {
+  float: left;
+  margin-top: 7px;
+  margin-bottom: 6px;
+}
+
+.wd-form-search {
+  float: right;
+  margin-left: 38px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  border: 1px solid #d5d5d5;
+  width: 195px;
+  height: 28px;
+  border-radius: 15px;
+}
+
+.wd-form-search .txt-search {
+  background: transparent;
+  height: 26px;
+  width: 75%;
+  line-height: 26px;
+  padding-left: 10px;
+  color: #757575;
+  font-size: 12px;
+}
+
+.wd-form-search .btn-search {
+  float: right;
+  width: 30px;
+  height: 30px;
+  text-indent: -100000em;
+  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/sprite.png)
+    no-repeat -47px -4px;
+  cursor: pointer;
+}
+
+.wd-menu-responsive,
+.wd-login-responsive,
+.wd-search-responsive {
+  float: right;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.wd-menu-btn {
+  display: none;
+}
+
+input {
+  border: 0;
+}
+
+.menu {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu > ul > li {
+  float: left;
+  position: relative;
+}
+
+.menu > ul > li > a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-shadow: none;
+  padding: 9px 14px 9px 14px;
+  border-bottom: 5px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:link,
+a:visited {
+  color: #363636;
+  text-decoration: none;
+}
+
+element.style {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.DnnModule {
+  position: relative;
+  /* z-index: 902; */
+}
+
+.wd-slide-banner {
+  margin-bottom: 0;
+  position: relative;
+  top: -5px;
+}
+
+.flexslider {
+  margin: 0 0 0;
+  background: #fff;
+  position: relative;
+  zoom: 1;
+}
+
+.flexslider .slides {
+  zoom: 1;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: 247px;
+}
+
+.col-sm-3 {
+  width: 25%;
+}
+
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+  float: left;
+}
+
+.wd-title-nav {
+  font-size: 15px;
+  color: #106cb2;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  height: 43px;
+  line-height: 43px;
+  padding-left: 15px;
+}
+
+.wd-left-accordion {
+  border: 1px solid #eaeaea;
+}
+
+.wd-left-accordion .sub-title-accordion:hover,
+.wd-left-accordion .wd-active {
+  color: #0c5b98;
+}
+
+.wd-left-accordion a,
+.wd-left-accordion .sub-title-accordion {
+  padding: 12px 0;
+  border-bottom: 1px dashed #c9c9c9;
+  display: block;
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: #222222;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.wd-left-accordion .arrow,
+.wd-left-accordion .active-arrow {
+  background: url(img/front/bg-sprite.png) -11px -77px;
+  width: 8px;
+  height: 7px;
+  display: block;
+  float: right;
+  margin-top: 6px;
+}
+
+.col-sm-9 {
+  width: 75%;
+}
+
+.wd-list-content {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.wd-list-content h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.wd-left-title-block {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.media:first-child {
+  margin-top: 0;
+}
+
+.media,
+.media .media {
+  margin-top: 15px;
+}
+
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media > .pull-left {
+  margin-right: 10px;
+}
+
+.wd-list-report li h3 {
+  margin-bottom: 5px;
+}
+
+.wd-list-content h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.media-heading {
+  margin: 0 0 5px;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.wd-notify-news {
+  background: #00ad09;
+  margin-left: 3px;
+}
+
+.wd-notify-news,
+.wd-notify-hot,
+.wd-notify-urgency {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 1px 4px;
+}
+
+.wd-list-report .date {
+  float: left;
+  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/sprite.png)
+    no-repeat -118px -8px;
+  padding: 0px 0 0px 20px;
+  color: #a9a9a9;
+  font-size: 12px;
+}
+
+.wd-list-report li p {
+  color: #4e4e4e;
+  font-size: 13px;
+}
+
+li p {
+  line-height: 18px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
