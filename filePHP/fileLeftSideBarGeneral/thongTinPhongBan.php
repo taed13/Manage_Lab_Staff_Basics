@@ -3,8 +3,8 @@ $link = mysqli_connect('localhost', 'root', '') or die('Could not connect:' . my
 $db_selected = mysqli_select_db($link, 'DULIEU');
 $rs = mysqli_query($link, "SELECT * FROM phongban");
 
-echo '<table border="1" width="100%">';
-echo '<caption>Dữ liệu Phòng Ban</caption>';
+echo '<h2 style="text-align:center">Dữ liệu Phòng Ban</h2>';
+echo '<table border="1" width="100%" class="table table-striped">';
 
 // tieu de cua bang du lieu khi hien thi len web
 echo    '<tr>
@@ -27,5 +27,7 @@ mysqli_close($link);
 ?>
 
 <html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </html>
