@@ -28,36 +28,36 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Thêm Phòng Ban</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Phòng Ban</title>
 
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
 
 </head>
 
 <body>
 
-   <div class="form-container">
+    <div class="form-container">
 
-      <form action="themPhongBan.php" method="post">
-         <h3>Thêm Phòng Ban</h3>
-         <?php
+        <form action="themPhongBan.php" method="post">
+            <h3>Thêm Phòng Ban</h3>
+            <?php
          if (isset($error)) {
             foreach ($error as $error) {
                echo '<span class="error-msg">' . $error . '</span>';
             };
          };
          ?>
-         <input type="text" name="IDPB" required placeholder="enter your id lab">
-         <input type="text" name="TenPB" required placeholder="enter your lab name">
-         <input type="text" name="MoTa" required placeholder="enter your describe">
-         <input type="submit" name="submit" value="add staff now" class="form-btn">
-      </form>
+            <input type="text" name="IDPB" required placeholder="enter your id lab">
+            <input type="text" name="TenPB" required placeholder="enter your lab name">
+            <input type="text" name="MoTa" required placeholder="enter your describe">
+            <input type="submit" name="submit" value="add lab now" class="form-btn">
+        </form>
 
-   </div>
+    </div>
 
 </body>
 

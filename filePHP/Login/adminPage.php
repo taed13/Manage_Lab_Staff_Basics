@@ -27,7 +27,8 @@ if (!isset($_SESSION['admin_name'])) {
         <img src="/PracticeFirst/image/Optimized-header_1 (1).png" alt="Paris" class="header">
         <iframe src="/PracticeFirst/filePHP/animation.php" name="target_form"></iframe>
         <aside class="left-sidebar">
-            <p style="color:#CCF381;" onclick="myFunction()" id="nameadmin">ADMIN: <?php echo $_SESSION['admin_name'] ?></p>
+            <p style="color:#CCF381;" onclick="myFunction()" id="nameadmin">ADMIN: <?php echo $_SESSION['admin_name'] ?>
+            </p>
             <a href=" /PracticeFirst/filePHP/fileLeftSideBarGeneral/mainForm.php" target="target_form">Trang chủ</a>
             <a href="/PracticeFirst/filePHP/fileLeftSideBarGeneral/thongTinNhanVien.php" target="target_form">Thông Tin
                 Nhân Viên<nav></nav></a>
