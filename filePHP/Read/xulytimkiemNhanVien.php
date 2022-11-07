@@ -10,8 +10,8 @@ if ($radio == 'rHoten')
 if ($radio == 'rDiachi')
     $rs = mysqli_query($link, "SELECT * FROM nhanvien WHERE Diachi LIKE '%$data%'");
 
-echo '<table border="1" width="100%">';
-echo '<caption>Dữ liệu bảng Nhân Viên</caption>';
+echo '<h2 style="text-align:center">Dữ liệu Nhân Viên</h2>';
+echo '<table border="1" width="100%" class="table table-striped">';
 echo    '<TR>
             <TH>IDNV</TH>
             <TH>Họ tên</TH>
@@ -34,5 +34,7 @@ mysqli_close($link);
 ?>
 
 <html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </html>

@@ -10,8 +10,8 @@ if ($radio == 'rTenPB')
 if ($radio == 'rMoTa')
     $rs = mysqli_query($link, "SELECT * FROM phongban WHERE MoTa LIKE '%$data%'");
 
-echo '<table border="1" width="100%">';
-echo '<caption>Dữ liệu bảng Phòng Ban</caption>';
+echo '<h2 style="text-align:center">Dữ liệu Phòng Ban</h2>';
+echo '<table border="1" width="100%" class="table table-striped">';
 echo    '<TR>
             <TH>IDPB</TH>
             <TH>Tên Phòng Ban</TH>
@@ -32,5 +32,7 @@ mysqli_close($link);
 ?>
 
 <html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </html>

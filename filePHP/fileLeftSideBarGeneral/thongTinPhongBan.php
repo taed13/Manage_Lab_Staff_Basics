@@ -13,8 +13,7 @@ echo    '<tr>
             <th>Mô Tả</th>
         </tr>';
 while ($row = mysqli_fetch_array($rs, MYSQLI_BOTH)) {
-    echo
-    '<tr>
+    echo '<tr>
         <td>' . $row['IDPB'] . '</td>
         <td>' . $row['TenPB'] . '</td>
         <td>' . $row['MoTa'] . '</td>

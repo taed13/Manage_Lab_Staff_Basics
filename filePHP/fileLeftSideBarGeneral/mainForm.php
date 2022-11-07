@@ -9,7 +9,7 @@
         Khoa Công nghệ thông tin, Trường ĐH Bách khoa, ĐHĐN
     </title>
     <link rel="icon" type="image/x-icon" href="/PracticeFirst/image/logo-small.png">
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/mainForm.css">
+    <link rel="stylesheet" href="/LabCNWEB/fileCSS/mainForm.css">
 </head>
 
 <body>
@@ -99,7 +99,8 @@
                 <div class="wd-slide-banner">
                     <div class="flexslider">
                         <ul class="slides">
-                            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide">
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;"
+                                class="flex-active-slide">
                                 <a href="">
                                     <img src="/image/Slider_KhoaCNTT_KN40namCB.jpeg" alt="" style="margin: 0 auto;
                                         width: 1170px;">
@@ -113,7 +114,8 @@
         <div class="clear"></div>
         <div id="main">
             <div class="row" style="display:flex ; margin-top: 20px; margin-left: 175px;">
-                <div id="dnn_LeftContentPanel" class="col-sm-3" style="width: 270px; height: 100%; border: 1px solid rgb(229, 224, 224); margin-left: -175px;">
+                <div id="dnn_LeftContentPanel" class="col-sm-3"
+                    style="width: 270px; height: 100%; border: 1px solid rgb(229, 224, 224); margin-left: -175px;">
                     <div class="DnnModule DnnModule-BKMenuLeft DnnModule-1930">
                         <div class="DNNContainer_noTitle">
                             <div class="dnn_ctr1930_ContentPane">
@@ -151,11 +153,13 @@
                                         <li>
                                             <div class="media">
                                                 <a class="pull-left" href="">
-                                                    <img src="/PracticeFirst/image/1.jpeg" alt width="130px">
+                                                    <img src="/LabCNWEB/image/1.jpeg" alt width="130px">
                                                 </a>
-                                                <div class="media-body" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                <div class="media-body"
+                                                    style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                     <h3 class="media-heading">
-                                                        <a href="" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                        <a href=""
+                                                            style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                             Khai giảng và phổ biến quy chế cho 03 Nghiên cứu sinh trúng
                                                             tuyển tháng 08 năm 2022
                                                         </a>
@@ -175,11 +179,13 @@
                                         <li>
                                             <div class="media">
                                                 <a class="pull-left" href="">
-                                                    <img src="/PracticeFirst/image/2.jpeg" alt width="130px">
+                                                    <img src="/LabCNWEB/image/2.jpeg" alt width="130px">
                                                 </a>
-                                                <div class="media-body" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                <div class="media-body"
+                                                    style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                     <h3 class="media-heading">
-                                                        <a href="" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                        <a href=""
+                                                            style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                             Lễ vinh danh Đại sứ TOEIC Việt Nam tháng 6.2022 cho sinh
                                                             viên Trường Đại học Bách khoa
                                                         </a>
@@ -197,11 +203,13 @@
                                         <li>
                                             <div class="media">
                                                 <a class="pull-left" href="">
-                                                    <img src="/PracticeFirst/image/3.jpeg" alt width="130px">
+                                                    <img src="/LabCNWEB/image/3.jpeg" alt width="130px">
                                                 </a>
-                                                <div class="media-body" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                <div class="media-body"
+                                                    style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                     <h3 class="media-heading">
-                                                        <a href="" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                        <a href=""
+                                                            style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                             Đại học Bách khoa – Đại học Đà Nẵng; phát triển theo định
                                                             hướng đại học nghiên cứu vào năm 2035
                                                         </a>
@@ -221,11 +229,13 @@
                                         <li>
                                             <div class="media">
                                                 <a class="pull-left" href="">
-                                                    <img src="/PracticeFirst/image/4.jpeg" alt width="130px">
+                                                    <img src="/LabCNWEB/image/4.jpeg" alt width="130px">
                                                 </a>
-                                                <div class="media-body" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                <div class="media-body"
+                                                    style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                     <h3 class="media-heading">
-                                                        <a href="" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                        <a href=""
+                                                            style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                             “25 năm khai sinh 7 khoa CNTT đầu tiên” - dấu mốc lịch sử
                                                             Ngành CNTT Việt Nam
                                                         </a>
@@ -246,11 +256,13 @@
                                         <li>
                                             <div class="media">
                                                 <a class="pull-left" href="">
-                                                    <img src="/PracticeFirst/image/5.jpeg" alt width="130px">
+                                                    <img src="/LabCNWEB/image/5.jpeg" alt width="130px">
                                                 </a>
-                                                <div class="media-body" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                <div class="media-body"
+                                                    style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                     <h3 class="media-heading">
-                                                        <a href="" style="color:black; font-weight: 800; margin-bottom: 6px;">
+                                                        <a href=""
+                                                            style="color:black; font-weight: 800; margin-bottom: 6px;">
                                                             Khai giảng và phổ biến quy chế cho Nghiên cứu sinh trúng
                                                             tuyển đợt tháng 12/2021 và tháng 4/2022
                                                         </a>

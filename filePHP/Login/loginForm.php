@@ -8,11 +8,11 @@
     <title>login form</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <link rel="stylesheet" href="/LabCNWEB/fileCSS/styleLogin.css">
     <script>
-        $(function() {
-            $("#includedContent").load("/PracticeFirst/filePHP/index.php");
-        });
+    $(function() {
+        $("#includedContent").load("/LabCNWEB/filePHP/index.php");
+    });
     </script>
 </head>
 

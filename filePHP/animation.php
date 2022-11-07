@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/PracticeFirst/fileCSS/style_animation.css">
+    <link rel="stylesheet" type="text/css" href="/LabCNWEB/fileCSS/style_animation.css">
 </head>
 
 <body>

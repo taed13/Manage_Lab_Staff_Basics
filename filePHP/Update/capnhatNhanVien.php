@@ -3,9 +3,9 @@ $link = mysqli_connect('localhost', 'root', '') or die('Could not connect:' . my
 $db_selected = mysqli_select_db($link, 'DULIEU');
 $rs = mysqli_query($link, "SELECT * FROM nhanvien");
 
+echo '<h2 style="text-align:center">Dữ liệu Nhân Viên</h2>';
 echo '<Form action="xulycapnhatNhanVien.php">';
-echo '<table border="1" width="100%">';
-echo '<caption>DỮ LIỆU BẢNG NHÂN VIÊN</Caption>';
+echo '<table border="1" width="100%" class="table table-striped">';
 echo    '<TR>
             <TH>MÃ NHÂN VIÊN</TH>
             <TH>HỌ TÊN</TH>
@@ -31,5 +31,7 @@ mysqli_close($link);
 ?>
 
 <html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </html>

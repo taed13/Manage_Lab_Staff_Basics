@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
    } else {
       $insert = "INSERT INTO nhanvien(IDNV, HoTen, IDPB, DiaChi) VALUES('$IDNV', '$HoTen', '$IDPB', '$DiaChi')";
       mysqli_query($conn, $insert);
-      header('location:/PracticeFirst/filePHP/animation.php');
+      header('location:/LabCNWEB/filePHP/Create/themNhanVien.php');
    }
 };
 
@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
     <title>Thêm Nhân Viên</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <link rel="stylesheet" href="/LabCNWEB/fileCSS/styleLogin.css">
 
 </head>
 

@@ -59,7 +59,7 @@ img {
   .footer {
     order: 4;
     min-height: 100px;
-    background: #075794 url(/PracticeFirst/image/footer.png) no-repeat center 0;
+    background: #075794 url(/LabCNWEB/image/footer.png) no-repeat center 0;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.6) inset;
     color: #b9c7d8;
   }

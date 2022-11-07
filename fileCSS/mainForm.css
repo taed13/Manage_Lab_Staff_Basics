@@ -1,6 +1,5 @@
 .wd-head-container {
-  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/bg-header.png)
-    repeat-x 0 0;
+  background: url(/LabCNWEB/image/bg-header.png) repeat-x 0 0;
   min-height: 130px;
   z-index: 10;
   position: relative;
@@ -97,8 +96,7 @@ a.wd-logo {
   width: 30px;
   height: 30px;
   text-indent: -100000em;
-  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/sprite.png)
-    no-repeat -47px -4px;
+  background: url(/LabCNWEB/image/sprite.png) no-repeat -47px -4px;
   cursor: pointer;
 }
 
@@ -401,7 +399,7 @@ element.style {
 
 .wd-left-accordion .arrow,
 .wd-left-accordion .active-arrow {
-  background: url(img/front/bg-sprite.png) -11px -77px;
+  background: url(/LabCNWEB/image/sprite.png) no-repeat -11px -77px;
   width: 8px;
   height: 7px;
   display: block;
@@ -510,8 +508,7 @@ h6,
 
 .wd-list-report .date {
   float: left;
-  background: url(http://dut.udn.vn/Portals/_default/skins/dhbk/img/front/sprite.png)
-    no-repeat -118px -8px;
+  background: url(/LabCNWEB/image/sprite.png) no-repeat -118px -8px;
   padding: 0px 0 0px 20px;
   color: #a9a9a9;
   font-size: 12px;

@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
    } else {
       $insert = "INSERT INTO phongban(IDPB, TenPB, MoTa) VALUES('$IDPB', '$TenPB', '$MoTa')";
       mysqli_query($conn, $insert);
-      header('location:/PracticeFirst/filePHP/animation.php');
+      header('location:/LabCNWEB/filePHP//Create/themPhongBan.php');
    }
 };
 
@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
     <title>Thêm Phòng Ban</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="/PracticeFirst/fileCSS/styleLogin.css">
+    <link rel="stylesheet" href="/LabCNWEB/fileCSS/styleLogin.css">
 
 </head>
 
