@@ -32,8 +32,8 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--color-darkblue);
-  background-image: linear-gradient(115deg, #fbd0d9, rgba(136, 136, 206, 0.7)),
-    url(/PracticeFirst/image/denvau.jpeg);
+  background-image: linear-gradient(115deg, #fbd0d9, crimson),
+    url(/PracticeFirst/image/forest.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -116,7 +116,8 @@ button {
 /* form */
 
 form {
-  background: var(--color-darkblue-alpha);
+  background: #075794;
+  opacity: 0.8;
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
@@ -168,10 +169,17 @@ form {
 
 .submit-button {
   display: block;
-  width: 100%;
-  padding: 0.75rem;
-  background: var(--color-green);
-  color: inherit;
   border-radius: 40px;
+  width: 100%;
+  background: #fbd0d9;
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 20px;
   cursor: pointer;
+  padding: 0.5rem;
+}
+
+.submit-button:hover {
+  background: crimson;
+  color: #fff;
 }
